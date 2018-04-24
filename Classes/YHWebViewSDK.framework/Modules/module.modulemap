@@ -1,0 +1,6 @@
+framework module YHWebViewSDK {
+  umbrella header "YHWebViewSDK.h"
+
+  export *
+  module * { export * }
+}
