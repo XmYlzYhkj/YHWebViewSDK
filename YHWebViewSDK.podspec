@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   #s.source_files  = "Classes", "Classes/*"
 
-  s.dependency     'YHBaseSDK', '1.1.0'
+  s.dependency     'YHBaseSDK', '1.1.1'
 
   s.dependency     'MJRefresh', '3.1.12'
 
