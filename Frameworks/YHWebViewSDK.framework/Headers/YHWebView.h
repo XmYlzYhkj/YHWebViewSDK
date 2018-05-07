@@ -6,10 +6,8 @@
 //  Copyright © 2017年 YLZYH. All rights reserved.
 //
 
-#import "YHJSWebViewRouter.h"
 #import <UIKit/UIKit.h>
 
-@class WKWebViewJavascriptBridge;
 @class WKWebView;
 
 typedef void(^YHWebviewLoadingProgress)(double progress);
@@ -34,8 +32,6 @@ typedef BOOL(^YHWebviewStartLoad)(NSURLRequest * request);
  */
 
 @interface YHWebView : UIView
-
-@property(nonatomic, strong)WKWebViewJavascriptBridge* bridge;
 
 @property (nonatomic, strong)WKWebView *webView;
 

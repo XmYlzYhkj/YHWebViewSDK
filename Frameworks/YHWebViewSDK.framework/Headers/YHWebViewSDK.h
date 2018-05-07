@@ -14,8 +14,10 @@ FOUNDATION_EXPORT double YHWebViewSDKVersionNumber;
 //! Project version string for YHWebViewSDK.
 FOUNDATION_EXPORT const unsigned char YHWebViewSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <YHWebViewSDK/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <YHWebViewSDK/YHWebViewSDK.h>
 
 #import <YHWebViewSDK/YHWebVC.h>
 #import <YHWebViewSDK/YHWebView.h>
 #import <YHWebViewSDK/YHJSWebViewRouter.h>
+#import <YHWebViewSDK/YHWebView+Bridge.h>
+
